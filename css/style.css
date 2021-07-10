@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #ffbb63;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px !important;
+  padding: 20px;
+  font-size: 50px !important;
+}
+
+p {
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navigation {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+img {
+  margin: 0 auto;
+  width: 700px;
+  box-shadow: var(--box-shadow);
+  border-radius: 15px;
+}
